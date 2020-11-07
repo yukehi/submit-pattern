@@ -1,0 +1,450 @@
+body{
+    text-align: center;
+    margin: 0%;
+    font-family: 'Sofia', cursive;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 0px 0px;
+    grid-template-areas:
+      "first two"
+      "third third";
+  }
+  .first { grid-area: first;
+    background-color: #69B4FF; 
+    width: 100%;
+}
+    
+  .two { 
+      grid-area: two; 
+      background-color: #98EBFF;
+    }
+  .third { 
+      grid-area: third;
+      background-color: #82BBF3;
+     }
+  
+
+.contionr-main{
+display: flex;
+flex-direction: column;
+z-index: 0;
+
+}
+.img-stikes{
+    position: absolute;
+    width: 100px;
+    bottom: 780px;
+    left: -15px;
+    transform: rotate(240deg);
+   
+}
+
+.img-warn{
+    width: 50%;
+}
+.drop{
+    width: 730px;
+    height: 412px;
+    background-color: #82BBF3;
+    border-radius: 15px;
+    margin: 6%;
+}
+.drop-img{
+    position: relative;
+    top: 180px;
+    color: #69B4FF ;
+}
+.input-name{
+    border-radius: 30px;
+    border-style: none;
+    padding: 1%;
+    margin: 0 3%;
+}
+.input-story{
+    border-radius: 30px;
+    border-style: none;
+    margin: 3%;
+    width:500px ;
+    height: 88px;
+    padding: 1% 3%;
+
+}
+.input{
+    border-radius: 30px;
+    border-style: none;
+    margin: 3%;
+    outline-style: none;
+    
+}
+.input::placeholder{
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 500;
+}
+
+
+.btn{
+   background-color: #1E7CD9;
+   color: white;
+   border-style: none;
+   border-radius: 30px;
+   width: 204px;
+   height: 36px; 
+   font-family: 'Source Code Pro', monospace;
+    font-weight: 500;
+   
+}
+.btn:active{
+    transform: scale(0.9);
+}
+.details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "info Construction"
+      "Materials Abbreviations"
+      "Tips Abbreviations"
+      "special-stiches special-stiches";
+  }
+  .info { grid-area: info; }
+  .Materials { grid-area: Materials; }
+  .Tips { grid-area: Tips; }
+  .special-stiches { grid-area: special-stiches; }
+  .Abbreviations { grid-area: Abbreviations; }
+  .Construction { grid-area: Construction; }
+.img-tfira{
+    position: absolute;
+    bottom: 770px;
+    left: 780px;
+    width: 100px;
+}
+.top-hader{
+    background-color: white;
+    width: 250px;
+    border-radius: 0 15px 15px 0 ;
+}
+.select{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 500;
+    color: gray;
+    width: 324.97px;
+    height: 40px;
+    text-align: center;
+    text-align-last: center;
+    -moz-text-align-last: center;
+
+}
+.flex-box{
+    display: flex;
+    flex-direction: row;
+
+}
+.Difficulty{
+    margin: 2% 15%;
+    width: 25px;
+    height: 25px;
+}
+  .input-info {
+    width: 300px;
+    height: 40px;
+    padding: 0 3%;
+}
+.input-materials{
+    width: 300px;
+    height: 190px;
+    padding: 1% 3%;
+}
+.input-tips{
+    width: 300px;
+    height: 130px;
+    padding: 1% 3%;
+}
+.input-special{
+    width: 720px;
+    height: 100px;
+    padding: 0 3%;
+}
+.input-abbreviations{
+    width: 300px;
+    height: 400px;
+    padding: 1% 3%;
+}
+.input-construction{
+    width: 300px;
+    height: 240px;
+    padding: 1% 3%;
+}
+.input-video{
+    width: 300px;
+    height: 40px;
+    padding: 0 3%;
+}
+.drop2{
+    width: 300px;
+    height: 240px;
+    background-color: #82BBF3;
+    border-radius: 30px;
+    margin: 0 32%;
+}
+
+.drop-img2{
+    color: #98EBFF ;
+    position: relative;
+    top:100px;
+}
+.top-hader2{
+    position: relative;
+    left: 31%;
+    background-color: white;
+    width: 600px;
+    border-radius: 30px;
+}
+.instructions{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.item{
+    margin: 3% 3% 0 0;
+}
+.input-info1{
+    width: 500px;
+    height: 100px;
+}
+.round{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.input-round{
+    width: 300px;
+    height: 40px;
+}
+.input-round2{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    text-align-last: center;
+    -moz-text-align-last: center;
+}
+
+.btn-add{
+    border-radius: 30px;
+    border-style: none;
+    width: 40px;
+    height: 40px;
+}
+.btn-add:active{
+    transform: scale(0.9);
+}
+.add{
+    margin: 0%;
+}
+.drop3{
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+.drop-img3{
+    position: relative;
+    top: 100px;
+    color :#82BBF3 ;
+
+}
+
+.add-btn{
+    margin: 3%;
+}
+
+.img-sock{
+    position: absolute;
+    bottom: -980px;
+    left: 300px;
+}
+@media screen and (max-width: 1440px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr 1fr;
+      }
+    
+    
+    .drop{
+        width: 600px;
+        height: 100px;
+        position: relative;
+        left: 15px;
+    }
+    .drop-img{
+        top: 20px;
+    }
+    .details {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .input::placeholder{
+        font-size: 1rem;
+    }
+    .select{
+        width: 221px;
+    }
+    .input-story{
+        width: 500px;
+    }
+    .input-info{
+        width: 200px;
+    }
+    .input-materials{
+        width: 200px;
+    }
+    .input-construction{
+        width: 200px;
+        height: 190px;
+    }
+    .input-abbreviations{
+        width: 200px;
+        height: 190px;
+    }
+    .input-tips{
+        width: 500px;
+        margin: 0 0;
+    }
+    .input-special{
+        width: 500px;
+    }
+    .drop2{
+        width: 500px;
+        margin: 0 16%;
+    }
+    .input-video{
+        width: 200px;
+    }
+    .top-hader2{
+        margin: 0 28%;
+        left: 0;
+    }
+    .img-sock{
+        width: 100px;
+        left: 350px;
+        bottom: -1000px;
+        
+        
+    }
+    .img-stikes{
+        width: 80px;
+        left: -50;
+        bottom: 620px;
+    }
+    .img-tfira{
+        width: 80px;
+        bottom: 605px;
+        left: 680px;
+    }
+    .input-tips{
+        margin: 6% 0 0 0;
+    }
+}
+@media screen and (max-width: 600px){
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+        
+      }
+    
+    .drop{
+        width: 200px;
+        height: 100px;
+        position: relative;
+        left: 80px;
+    }
+    .drop-img{
+        top: 20px;
+        
+    }
+    .details {
+        display: flex;
+        flex-direction: column;
+    }
+    .input::placeholder{
+        font-size: 1rem;
+    }
+    .select{
+        width: 212.31px;
+    }
+    .input-story{
+        width: 250px;
+    }
+    .input-info{
+        width: 200px;
+    }
+    .input-materials{
+        width: 200px;
+
+    }
+    .input-construction{
+        width: 200px;
+        height: 190px;
+    }
+    .input-abbreviations{
+        width: 200px;
+        height: 190px;
+    }
+    .input-tips{
+        width: 200px;
+        
+    }
+    .input-special{
+        width: 200px;
+    }
+    .drop2{
+        width: 200px;
+        margin: 0 25%;
+    }
+    .input-video{
+        width: 200px;
+    }
+    .top-hader2{
+        margin: 0;
+        left: 25%;
+        width: 50%;
+    }
+    .img-sock{
+        width: 50px;
+        left: 80px;
+        bottom: -1620px;
+        
+    }
+    .img-stikes{
+        width: 80px;
+        left: -50;
+        bottom: 660px;
+    }
+    .img-tfira{
+        width: 80px;
+        bottom: 55px;
+        left: -2px;
+    }
+
+    .input-info2{
+        width: 150px;
+    }
+    .input-info1{
+        width: 200px;
+    }
+    .input-round{
+        width: 150px;
+    }
+    .drop3{
+        width: 250px;
+    }
+}
